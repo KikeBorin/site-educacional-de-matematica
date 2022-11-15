@@ -178,6 +178,13 @@ div.calculoDiv > button:hover {
     background-color: var(--cor0);
 }
 
+.whats {
+    position: fixed; 
+    bottom: 30px; 
+    right: 30px; 
+    z-index: 9999;
+}
+
 aside {
     background-color: var(--cor1);
     padding: 10px;
@@ -240,3 +247,50 @@ footer a:hover {
     text-decoration: underline;
     color: var(--cor1);
 }
+
+/*
+#estilo-tabela-conversao{
+    text-align: center;
+    background-color: var(--cor0);
+    height: auto;
+    width: auto;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#estilo-tabela-conversao > button{
+    background-color: var(--cor3);
+    color:white;
+    font-weight: bolder;
+    border: 8px solid transparent;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+#estilo-tabela-conversao > button:hover{
+    transition: all 0.5s;
+    cursor: pointer;
+    border: 13px solid transparent;
+    font-size: 16px;
+    background-color: var(--cor1);
+}
+
+#estilo-tabela-conversao > p{
+    text-align: center;
+    font-weight: bold;
+}
+
+#estilo-tabela-conversao > div > input{
+    padding: 3px;
+    margin: 2px;
+}
+
+#estilo-tabela-conversao > div > p {
+    text-align: center;
+}
+
+*/

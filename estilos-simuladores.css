@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background-color: gray;
+    height: auto;
+    width: auto;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+button {
+    background-color: gray;
+    color:white;
+    font-weight: bolder;
+    border: 8px solid transparent;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    transition: all 0.5s;
+    cursor: pointer;
+    border: 13px solid transparent;
+    font-size: 16px;
+    background-color: #d3d3d3d3;
+}
+
+input {
+    margin: 3px;
+    margin-bottom: 1px;
+}
